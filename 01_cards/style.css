@@ -151,7 +151,7 @@ p {
   text-align: left;
 }
 
-.test2 {
+.cards-wrapper {
   width: 64.8rem;
   height: 40rem;
 }
@@ -163,7 +163,7 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .test2 {
+  .cards-wrapper {
     width: 80%;
     height: 100%;
   }
@@ -200,7 +200,7 @@ p {
 }
 
 @media screen and (max-width: 560px) {
-  .test2 {
+  .cards-wrapper {
     width: 100%;
     height: 100%;
   }
@@ -252,7 +252,13 @@ p {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 385px) {
+  .cards__price__container {
+    max-width: 24.3rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
   .cards__price__container {
     max-width: 22.3rem;
   }
