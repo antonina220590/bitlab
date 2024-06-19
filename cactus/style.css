@@ -34,12 +34,12 @@ h3 {
 }
 
 .training-format__container {
-  /* background-image: url("./assets/backgroundBitlab.png"); */
+  background-image: url("./assets/backgroundBitlab.png");
   width: 100vw;
-  height: 794px;
+  height: 550px;
   opacity: 1;
-  /* background-size: 100% 100%;
-  background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .icon {
@@ -50,12 +50,25 @@ h3 {
 .training-format__text {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  padding: 0 63px;
 }
 
 .first {
+  position: relative;
   display: flex;
-  height: 20vh;
+  height: 30vh;
 }
+
+.cactus {
+  background-image: url("./assets/group.png");
+  width: 20vw;
+  background-repeat: no-repeat;
+  background-size: 151px 218px;
+  position: absolute;
+  height: 218px;
+  top: 10%;
+}
+
 span {
   min-width: 100px;
   height: 30px;
