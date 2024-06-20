@@ -41,7 +41,7 @@ h3 {
 }
 
 .training-format__content {
-  background-image: url("../cactus/assets/backgroundBitlab.png");
+  background-image: url("./assets/backgroundBitlab.png");
   width: 100vw;
   height: 550px;
   opacity: 1;
@@ -66,7 +66,7 @@ h3 {
 }
 
 .training-format__img {
-  background-image: url("../cactus/assets/group.png");
+  background-image: url("./assets/group.png");
   width: 20vw;
   background-repeat: no-repeat;
   background-size: 151px 218px;
