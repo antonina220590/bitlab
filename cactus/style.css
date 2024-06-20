@@ -20,20 +20,27 @@ h3 {
   letter-spacing: 0px;
 }
 
+.p_colored {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
 .training-format {
   background: #1a1a1a;
-  height: 794px;
 }
 
 .wrapper {
-  max-width: 1440px;
+  max-width: 1308px;
 }
 
 .section__header {
-  padding: 80px 0 10px 64px
+  padding: 80px 0 10px 64px;
 }
 
-.training-format__container {
+.training-format__content {
   background-image: url("../cactus/assets/backgroundBitlab.png");
   width: 100vw;
   height: 550px;
@@ -42,35 +49,51 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.icon {
-  width: 100%;
-  height: 427px;
-}
-
-.training-format__text {
+.training-format__grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 0 63px;
 }
 
-.first {
+.column {
   position: relative;
   display: flex;
-  height: 30vh;
 }
 
-.cactus {
+.first-column {
+  height: 308.56px;
+  flex-direction: column-reverse;
+}
+
+.training-format__img {
   background-image: url("../cactus/assets/group.png");
   width: 20vw;
   background-repeat: no-repeat;
   background-size: 151px 218px;
   position: absolute;
   height: 218px;
-  top: 10%;
+  top: 7%;
+  left: 16%;
 }
 
-span {
-  min-width: 100px;
+.content-box {
+  display: flex;
+  flex-direction: column;
   height: 30px;
-  background: white;
+  gap: 16px;
+}
+
+.content-number {
+  box-sizing: border-box;
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  padding: 7px 12px;
+}
+
+.first-column__content-number {
+  border: 2px solid rgb(157, 86, 247);
+  box-shadow: 2px 2px 0px 0px rgb(157, 86, 247);
+  color: rgb(157, 86, 247);
 }
