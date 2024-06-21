@@ -89,7 +89,7 @@ p {
 }
 
 .training-format__content {
-  height: 25vh;
+  height: 30%;
   display: flex;
   align-items: center;
   position: relative;
@@ -174,7 +174,25 @@ p {
   border-radius: 6px;
   box-shadow: 2px 2px 0px 0px rgb(41, 210, 223);
   background: rgb(255, 255, 255);
-  position: absolute;
-  left: 4.1%;
-  bottom: 95%;
+}
+
+.grid {
+   display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+
+.first {
+  margin-left: 64px;
+}
+
+.second {
+  margin-left: 30px;
+}
+
+.text {
+  height: 50px;
+    min-width: 276px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
 }
