@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-family: Asgard Trial;
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0px;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+  font-family: Asgard Trial;
+  font-size: 2.8rem;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+p {
+  color: rgb(209, 209, 214);
+  font-family: Manrope;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.training-format {
+  background-color: #1a1a1a;
+  height: 599px;
+}
+
+.wrapper {
+  max-width: 1440px;
+}
+
+.content-text {
+  color: rgb(209, 209, 214);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.section__header {
+  padding: 80px 0 80px 64px;
+}
+
+.training-format_dotted-line {
+  width: 100vw;
+  height: 4px;
+  background-image: url('./assets/dottedLine.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 1090px) {
+  .training-format_dotted-line {
+    background-image: url('./assets/dottedLine_tablet.png');
+  }
+  }
+
+  .training-format__content {
+    height: 21vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .training-format_upper-box {
+    position: relative;
+  }
+
+ .vertical-line {
+  width: 111px;
+  height: 2px;
+  background-image: url('./assets/upperLine.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transform: rotate(90deg);
+  position: absolute;
+ }
