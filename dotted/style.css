@@ -31,13 +31,13 @@ h4 {
 }
 
 p {
-  color: rgb(209, 209, 214);
-  font-family: Manrope;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 23px;
-  letter-spacing: 0px;
-  text-align: left;
+color: rgb(209, 209, 214);
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
 }
 
 .p_colored {
@@ -96,11 +96,8 @@ p {
 }
 
 .training-format_upper-box {
-  /* display: grid;
-  grid-template-columns: repeat(3, 2fr); */
   display: flex;
-
-  height: 220px;
+  height: 194px;
 }
 
 .training-format_bottom-box {
@@ -111,7 +108,7 @@ p {
 .vertical-line {
   position: absolute;
   width: 4px;
-  height: 110px;
+  height: 99px;
   background-image: url("./assets/line1.png");
   background-repeat: no-repeat;
   left: 5.6%;
@@ -120,7 +117,7 @@ p {
 .vertical-line1 {
   position: absolute;
   width: 4px;
-  height: 110px;
+  height: 99px;
   background-image: url("./assets/line1.png");
   background-repeat: no-repeat;
   left: 36.6%;
@@ -129,7 +126,7 @@ p {
 .vertical-line2 {
   position: absolute;
   width: 4px;
-  height: 110px;
+  height: 99px;
   background-image: url("./assets/line1.png");
   background-repeat: no-repeat;
   left: 75%;
@@ -144,19 +141,19 @@ p {
 .vertical-line4 {
   position: absolute;
   width: 4px;
-  height: 110px;
+  height: 101px;
   background-image: url("./assets/line1.png");
   background-repeat: no-repeat;
-  left: 18%;
+  left: 21%;
 }
 
 .vertical-line5 {
   position: absolute;
   width: 4px;
-  height: 110px;
+  height: 101px;
   background-image: url("./assets/line1.png");
   background-repeat: no-repeat;
-  left: 36%;
+  left: 59.5%;
 }
 
 .content-number {
@@ -166,6 +163,8 @@ p {
   width: 40px;
   height: 40px;
   padding: 7px 12px;
+  display: flex;
+  gap: 30px;
 }
 
 .first-column__content-number {
@@ -177,7 +176,7 @@ p {
 }
 
 .grid {
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 2fr);
 }
 
@@ -189,10 +188,39 @@ p {
   margin-left: 30px;
 }
 
+.third {
+  margin-left: 100px;
+}
+
 .text {
-  height: 50px;
-    min-width: 276px;
-    display: flex;
-    text-align: justify;
-    align-items: center;
+  height: 90px;
+  min-width: 276px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+.text3 {
+  height: 40px;
+  min-width: 220px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+.text4 {
+  height: 60px;
+}
+
+.grid_bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.forth {
+  margin-left: 285px;
+}
+
+.fifth {
+  margin-left: 120px;
 }
