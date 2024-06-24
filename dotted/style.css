@@ -57,6 +57,7 @@ p {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  max-height: 900px;
 }
 
 .mobile {
@@ -77,7 +78,7 @@ p {
 }
 
 .training-format_dotted-line {
-  width: 100vw;
+  width: 100%;
   height: 4px;
   background-image: url("./assets/dottedLine.png");
   background-repeat: no-repeat;
@@ -486,7 +487,7 @@ p {
 @media screen and (max-width: 1020px) {
   .training-format {
     background-color: orangered;
-    height: 940px;
+    height: 100vh;
   }
 
   .desctop-and-tablet {
@@ -494,12 +495,14 @@ p {
   }
 
   .wrapper {
-    min-width: 450px;
+    max-width: 450px;
+    height: 950px;
   }
 
   .mobile {
     display: flex;
     justify-content: center;
+    position: relative;
   }
 
   .section__header {
@@ -510,8 +513,7 @@ p {
     width: 4px;
     background-image: url("./assets/dottedLine_short_rotated.png");
     background-repeat: no-repeat;
-    position: relative;
-    height: 940px;
+    height: 700px;
   }
 
   .training-format__content__mobile {
@@ -533,7 +535,7 @@ p {
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 40.5%;
+    top: 10%;
   }
 
   .horizontal-line1 {
@@ -542,7 +544,7 @@ p {
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 70%;
+    top: 44.3%;
   }
 
   .horizontal-line2 {
@@ -551,7 +553,7 @@ p {
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 110%;
+    top: 78.5%;
   }
 
   .horizontal-line3 {
@@ -560,7 +562,7 @@ p {
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 55%;
+    top: 22.3%;
   }
 
   .horizontal-line4 {
@@ -569,22 +571,23 @@ p {
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 90%;
-  }
-
-  .training-format__grid_left {
-    display: grid;
-    grid-template-rows: repeat(2, 2fr);
-    position: absolute;
-    top: 52%;
-    gap: 210px;
+    top: 64%;
   }
 
   .training-format__grid_right {
     display: grid;
+    grid-template-rows: repeat(2, 2fr);
+    position: absolute;
+    top: 20%;
+    gap: 250px;
+  }
+
+  .training-format__grid_left {
+    display: grid;
     grid-template-rows: repeat(3, 2fr);
     position: absolute;
-    top: 37.7%;
+    top: 7%;
+    gap: 200px;
   }
 
   p {
@@ -598,26 +601,23 @@ p {
   }
 
   .first-point {
-    margin-left: 264px;
+    margin-left: 100px;
   }
 
   .third-point {
-    margin-left: 264px;
-    margin-top: 34px;
+    margin-left: 100px;
 }
 
   .second-point {
-    margin-right: 280px;
-    margin-left: 0;
-  }
-  .forth-point {
-    margin-right: 7.5em;
-    margin-left: 0;
+    margin-left: 290px;
   }
 
+  .forth-point {
+    margin-left: 285px;
+}
+
   .fifth-point {
-    margin-left: 264px;
-    margin-top: 135px;
+    margin-right: 360px;
 }
 
   .content-number {
@@ -627,4 +627,9 @@ p {
   .content-number_row {
     flex-direction: row;
   }
+}
+
+
+@media screen and (max-width: 1020px) {
+
 }
