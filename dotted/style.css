@@ -439,7 +439,6 @@ p {
 }
 
 @media screen and (max-width: 1120px) {
-
   .vertical-line1 {
     left: 7.4%;
   }
@@ -998,11 +997,7 @@ p {
     flex-direction: row;
   }
 }
-@media screen and (width: 568px) {
-  .training-format {
-    background-color: #1a1a1a;
-  }
-}
+
 @media screen and (max-width: 580px) {
   .content-number {
     gap: 20px;
