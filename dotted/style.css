@@ -714,7 +714,17 @@ p {
   }
 }
 
-@media screen and (max-width: 661px) {
+@media screen and (max-width: 690px) {
+  .vertical-line4 {
+    left: 28%;
+  }
+
+  .vertical-line5 {
+    left: 60.8%;
+  }
+}
+
+@media screen and (max-width: 660px) {
   .training-format {
     background-color: orangered;
     height: 100vh;
@@ -761,7 +771,7 @@ p {
 
   .horizontal-line {
     position: absolute;
-    width: 110px;
+    width: 70px;
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
@@ -770,45 +780,45 @@ p {
 
   .horizontal-line1 {
     position: absolute;
-    width: 110px;
+    width: 70px;
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 44.3%;
+    top: 43.3%;
   }
 
   .horizontal-line2 {
     position: absolute;
-    width: 110px;
+    width: 70px;
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 78.5%;
+    top: 76%;
   }
 
   .horizontal-line3 {
     position: absolute;
-    width: 110px;
+    width: 70px;
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 22.3%;
+    top: 23.3%;
   }
 
   .horizontal-line4 {
     position: absolute;
-    width: 110px;
+    width: 70px;
     height: 4px;
     background-image: url("./assets/line_horizontal.png");
     background-repeat: no-repeat;
-    top: 64%;
+    top: 63%;
   }
 
   .training-format__grid_right {
     display: grid;
     grid-template-rows: repeat(2, 2fr);
     position: absolute;
-    top: 20%;
+    top: 21%;
     gap: 250px;
   }
 
@@ -816,7 +826,7 @@ p {
     display: grid;
     grid-template-rows: repeat(3, 2fr);
     position: absolute;
-    top: 7%;
+    top: 8%;
     gap: 200px;
   }
 
@@ -831,23 +841,23 @@ p {
   }
 
   .first-point {
-    margin-left: 100px;
-  }
-
-  .third-point {
-    margin-left: 100px;
+    margin-left: 50px;
   }
 
   .second-point {
-    margin-left: 290px;
+    margin-left: 180px;
+  }
+
+  .third-point {
+    margin-left: 50px;
   }
 
   .forth-point {
-    margin-left: 285px;
+    margin-left: 180px;
   }
 
   .fifth-point {
-    margin-right: 360px;
+    margin-right: 250px;
   }
 
   .content-number {
@@ -859,5 +869,120 @@ p {
   }
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 580px) {
+  .content-number {
+    gap: 20px;
+  }
+
+  .text-box {
+    min-width: 130px;
+    height: 65px;
+  }
+
+  .text-box_second_bottom {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .content-number {
+    width: 25px;
+    height: 25px;
+    padding: 1px 8px;
+    gap: 18px;
+  }
+
+  .p_colored {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .horizontal-line {
+    top: 9.9%;
+    width: 55px;
+  }
+
+  .horizontal-line1 {
+    top: 42%;
+    width: 55px;
+  }
+
+  .horizontal-line2 {
+    top: 74%;
+    width: 55px;
+  }
+
+  .horizontal-line3 {
+    top: 22.6%;
+    width: 55px;
+  }
+
+  .horizontal-line4 {
+    top: 62%;
+    width: 55px;
+  }
+
+  .first-point {
+    margin-left: 50px;
+  }
+
+  .second-point {
+    margin-left: 155px;
+  }
+
+  .forth-point {
+    margin-left: 150px;
+  }
+
+  .third-point {
+    margin-left: 50px;
+  }
+
+  .fifth-point {
+    margin-right: 200px;
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  .section__header {
+    padding: 50px 0 50px 44px;
+}
+
+  .horizontal-line {
+    top: 9.9%;
+    width: 35px;
+  }
+
+  .horizontal-line1 {
+    top: 42%;
+    width: 35px;
+  }
+
+  .horizontal-line2 {
+    top: 74%;
+    width: 35px;
+  }
+
+  .horizontal-line3 {
+    top: 22.6%;
+    width: 35px;
+  }
+
+  .horizontal-line4 {
+    top: 62%;
+    width: 35px;
+  }
+
+  .second-point {
+    margin-left: 110px;
+}
+
+  .fifth-point {
+    margin-right: 160px;
+}
+
+.forth-point {
+  margin-left: 110px;
+}
 }
