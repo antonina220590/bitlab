@@ -595,6 +595,16 @@ p {
   }
 }
 
+@media screen and (max-width: 932px) {
+  .vertical-line2 {
+    left: 31.6%;
+  }
+
+  .vertical-line4 {
+    left: 64.4%;
+  }
+}
+
 @media screen and (max-width: 930px) {
   .vertical-line2 {
     left: 31.7%;
