@@ -1144,47 +1144,47 @@ p {
   }
 
   .horizontal-line1 {
-    width: 26px;
+    width: 60px;
     top: 9.5%;
   }
 
   .horizontal-line3 {
-    width: 26px;
+    width: 60px;
     top: 41.5%;
   }
 
   .horizontal-line5 {
-    width: 26px;
+    width: 60px;
     top: 73.5%;
   }
 
   .horizontal-line2 {
-    width: 26px;
+    width: 60px;
     top: 22.6%;
   }
 
   .horizontal-line4 {
-    width: 26px;
+    width: 60px;
     top: 61.5%;
   }
 
   .first-point {
-    margin-left: 55px;
+    margin-left: 50px;
   }
 
   .second-point {
-    margin-left: 95px;
+    margin-left: 115px;
   }
 
   .third-point {
-    margin-left: 55px;
+    margin-left: 50px;
   }
 
   .forth-point {
-    margin-left: 95px;
+    margin-left: 115px;
   }
   .fifth-point {
-    margin-right: 140px;
+    margin-right: 200px;
   }
 
   .text-box_second {
