@@ -1015,27 +1015,41 @@ p {
   }
 
   .horizontal-line {
-    top: 9.9%;
     width: 26px;
   }
 
   .horizontal-line1 {
-    top: 42%;
     width: 26px;
   }
 
   .horizontal-line2 {
-    top: 74%;
-    width: 35px;
+    width: 26px;
   }
 
   .horizontal-line3 {
-    top: 22.6%;
-    width: 35px;
+    width: 26px;
   }
 
   .horizontal-line4 {
-    top: 62%;
-    width: 35px;
+    width: 26px;
+  }
+
+  .first-point {
+    margin-left: 55px;
+  }
+
+  .second-point {
+    margin-left: 95px;
+  }
+
+  .third-point {
+    margin-left: 55px;
+  }
+
+  .forth-point {
+    margin-left: 95px;
+  }
+  .fifth-point {
+    margin-right: 140px;
   }
 }
