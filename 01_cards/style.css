@@ -115,7 +115,7 @@ p {
 .cards__tag {
   border-radius: 20px;
   background: rgba(101, 101, 101, 0.25);
-  padding: 5px 16px 5px 16px;
+  padding: 5px 14px 5px 14px;
 }
 
 .tag-text__colored {
@@ -176,11 +176,11 @@ p {
     width: 80%;
   }
   .card_content {
-    width: 35.5rem;
+    width: 95%;
   }
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 688px) {
   .cards__price__container {
     max-width: 40.3rem;
   }
@@ -193,13 +193,13 @@ p {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 623px) {
   .cards__price__container {
     max-width: 38.3rem;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
   .cards-wrapper {
     width: 100%;
     height: 100%;
@@ -208,11 +208,11 @@ p {
     width: 100%;
   }
   .cards__price__container {
-    max-width: 39.3rem;
+    max-width: 42rem;
   }
 
   .card_content {
-    width: 33.5rem;
+    width: 41.5rem;
   }
 
   .card__price {
@@ -224,17 +224,17 @@ p {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .cards__price__container {
-    max-width: 30.3rem;
+    max-width: 39.3rem;
   }
 
   .section__description {
-    width: 120%;
+    width: 110%;
   }
 
   .card_content {
-    width: 28.5rem;
+    width: 35rem;
   }
 
   .card__price {
@@ -242,24 +242,110 @@ p {
   }
 }
 
+@media screen and (max-width: 485px) {
+  .cards__price__container {
+    max-width: 38.3rem;
+  }
+
+  .card_content {
+    width: 35.5rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+
+  .section__description {
+    width: 95%;
+  }
+  .cards__price__container {
+    max-width: 33.3rem;
+  }
+
+  .card_content {
+    width: 33.5rem;
+  }
+}
+
 @media screen and (max-width: 420px) {
+
+  .section__description {
+    width: 95%;
+  }
+  .cards__price__container {
+    max-width: 30.3rem;
+  }
+
+  .card_content {
+    width: 32rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section__description {
+    width: 93%;
+  }
+
+  .cards__price__container {
+    max-width: 24.3rem;
+  }
+
   .cards__price__container {
     max-width: 28.3rem;
   }
 
   .card_content {
-    width: 20.5rem;
+    width: 31rem;
   }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 380px) {
   .cards__price__container {
     max-width: 24.3rem;
+  }
+
+  .cards__price__container {
+    max-width: 27rem;
+  }
+
+  .card_content {
+    width: 28rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .cards__price__container {
+    max-width: 24.3rem;
+  }
+
+  .cards__price__container {
+    max-width: 26rem;
+  }
+
+  .card_content {
+    width: 26rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .cards__price__container {
+    max-width: 24.3rem;
+  }
+
+  .cards__price__container {
+    max-width: 23rem;
+  }
+
+  .card_content {
+    width: 23rem;
   }
 }
 
 @media screen and (max-width: 325px) {
   .cards__price__container {
     max-width: 22.3rem;
+  }
+
+  .card_content {
+    width: 21rem;
   }
 }
