@@ -75,7 +75,6 @@ p {
 }
 
 .our-courses__card {
-  /* min-width: 647px; */
   border-radius: 16px;
   border: 1px solid #868686;
   display: flex;
@@ -124,7 +123,8 @@ p {
 
 .cards__price__container {
   display: flex;
-  width: 58.3rem;
+  /* width: 58.3rem; */
+  width: 54rem;
   justify-content: space-between;
   padding-top: 18px;
 }
@@ -152,8 +152,9 @@ p {
 }
 
 .cards-wrapper {
-  width: 64.8rem;
-  height: 40rem;
+  /* width: 64.8rem; */
+  width: 61rem;
+ height: 44rem;
 }
 
 @media screen and (max-width: 1359px) {
