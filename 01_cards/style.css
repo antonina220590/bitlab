@@ -43,7 +43,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1327px;
+  max-width: 1326px;
   margin: auto;
 }
 
@@ -53,9 +53,9 @@ body {
 
 .our-courses__cards-container {
   display: flex;
-  gap: 23.5px;
+  gap: 10px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .our-courses__content {
