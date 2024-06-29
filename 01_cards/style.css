@@ -88,7 +88,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 40px 32px 40px 32px;
-  width: 47.6rem;
+  width: 43.4rem;
 }
 
 .section__description {
@@ -147,11 +147,10 @@ body {
 }
 
 .cards-wrapper {
-  width: 61rem;
  height: 44rem;
 }
 
-@media screen and (max-width: 1359px) {
+@media screen and (max-width: 1375px) {
   .our-courses__content {
     align-items: center;
   }
@@ -207,7 +206,7 @@ body {
     height: 100%;
   }
   .section__description {
-    max-width: 100%;
+   width: 100%;
   }
   .cards__price__container {
     max-width: 42rem;
@@ -422,6 +421,7 @@ body {
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
+    width: 100%;
   }
 
   .cards__tag__colored {
