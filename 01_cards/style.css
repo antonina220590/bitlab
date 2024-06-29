@@ -377,7 +377,7 @@ body {
   }
 
   .card_content {
-    max-width: 370px;
+    max-width: 355px;
     padding: 24px 16px 24px 16px;
   }
 
@@ -448,12 +448,6 @@ body {
 }
 
 @media screen and (max-width: 385px) {
-  .section__description {
-   width: 95%;
-  }
-}
-
-@media screen and (max-width: 385px) {
 
   .cards__price__container {
     max-width: 31rem;
@@ -461,7 +455,7 @@ body {
   }
 
   .card_content {
-    max-width: 326px;
+    max-width: 310px;
     padding: 24px 16px 24px 16px;
   }
 
@@ -473,7 +467,7 @@ body {
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
-    width: 90%;
+    width: 95%;
   }
 
   .cards__tag__colored {
@@ -506,7 +500,7 @@ body {
   }
 
   .card_content {
-    max-width: 326px;
+    max-width: 305px;
     padding: 24px 16px 24px 16px;
   }
 
@@ -547,7 +541,7 @@ body {
   }
 
   .card_content {
-    max-width: 326px;
+    max-width: 280px;
     padding: 24px 16px 24px 16px;
   }
 
@@ -584,7 +578,7 @@ body {
   }
 
   .card_content {
-    max-width: 300px;
+    max-width: 260px;
     padding: 24px 16px 24px 16px;
   }
 
