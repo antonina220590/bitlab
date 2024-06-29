@@ -43,7 +43,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1327px;
+  max-width: 1326px;
   margin: auto;
 }
 
@@ -53,9 +53,9 @@ body {
 
 .our-courses__cards-container {
   display: flex;
-  gap: 23.5px;
+  gap: 10px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .our-courses__content {
@@ -67,7 +67,7 @@ body {
 
 .our-courses__card {
   border-radius: 16px;
-  border: 1px solid #868686;
+  border: 2px solid #868686;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -81,7 +81,7 @@ body {
   .our-courses__card:hover {
     border: 4px solid rgb(10, 204, 218);
     transform: rotate(5deg);
-    opacity: 0.9;
+    opacity: 0.85;
   }
 }
 .card_content {
@@ -116,8 +116,7 @@ body {
 
 .cards__price__container {
   display: flex;
-  /* width: 58.3rem; */
-  width: 54rem;
+  width: 57rem;
   justify-content: space-between;
   padding-top: 18px;
 }
@@ -159,6 +158,13 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+  .dashed {
+    border-radius: 16px;
+    background: none;
+    width: 100%;
+    height: 100%;
+  }
   .cards-wrapper {
     width: 80%;
     height: 100%;
@@ -236,7 +242,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 13px;
     line-height: 23px;
   }
@@ -279,7 +285,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 13px;
     line-height: 23px;
   }
@@ -322,7 +328,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 13px;
     line-height: 23px;
   }
@@ -365,7 +371,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 13px;
     line-height: 23px;
   }
@@ -408,7 +414,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 13px;
     line-height: 23px;
   }
@@ -447,7 +453,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 11px;
     line-height: 23px;
   }
@@ -487,7 +493,7 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  p {
+  .para {
     font-size: 10px;
     line-height: 23px;
   }
@@ -548,7 +554,7 @@ body {
     padding-top: 10px;
 }
 
-p {
+.para {
   font-size: 9px;
   line-height: 23px;
 }
