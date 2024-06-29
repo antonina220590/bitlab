@@ -182,13 +182,17 @@ body {
 }
 
 @media screen and (max-width: 688px) {
+  .section__description {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 688px) {
   .cards__price__container {
     max-width: 40.3rem;
   }
 
-  .section__description {
-    width: 80%;
-  }
+
   .card_content {
     max-width: 38.5rem;
   }
@@ -269,6 +273,11 @@ body {
 }
 
 @media screen and (max-width: 495px) {
+  .para {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
   .card__title {
     font-size: 2.4rem;
     line-height: 28.32px;
@@ -280,18 +289,14 @@ body {
   }
 
   .card_content {
-    max-width: 410px;
+    max-width: 390px;
     padding: 24px 16px 24px 16px;
-  }
-
-  .para {
-    font-size: 13px;
-    line-height: 23px;
   }
 
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
+    width: 100%
   }
 
   .cards__tag__colored {
@@ -312,6 +317,11 @@ body {
 }
 
 @media screen and (max-width: 465px) {
+  .para {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
   .card__title {
     font-size: 2.4rem;
     line-height: 28.32px;
@@ -327,14 +337,10 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  .para {
-    font-size: 13px;
-    line-height: 23px;
-  }
-
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
+    width: 90%;
   }
 
   .cards__tag__colored {
@@ -355,6 +361,11 @@ body {
 }
 
 @media screen and (max-width: 445px) {
+  .para {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
   .card__title {
     font-size: 2.4rem;
     line-height: 28.32px;
@@ -368,11 +379,6 @@ body {
   .card_content {
     max-width: 410px;
     padding: 24px 16px 24px 16px;
-  }
-
-  .para {
-    font-size: 13px;
-    line-height: 23px;
   }
 
   .section__description {
@@ -398,6 +404,11 @@ body {
 }
 
 @media screen and (max-width: 420px) {
+  .para {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
   .card__title {
     font-size: 2.4rem;
     line-height: 28.32px;
@@ -411,11 +422,6 @@ body {
   .card_content {
     max-width: 326px;
     padding: 24px 16px 24px 16px;
-  }
-
-  .para {
-    font-size: 13px;
-    line-height: 23px;
   }
 
   .section__description {
@@ -442,6 +448,12 @@ body {
 }
 
 @media screen and (max-width: 385px) {
+  .section__description {
+   width: 95%;
+  }
+}
+
+@media screen and (max-width: 385px) {
 
   .cards__price__container {
     max-width: 31rem;
@@ -461,6 +473,7 @@ body {
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
+    width: 90%;
   }
 
   .cards__tag__colored {
@@ -482,6 +495,10 @@ body {
 
 
 @media screen and (max-width: 375px) {
+  .para {
+    font-size: 10px;
+    line-height: 23px;
+  }
 
   .cards__price__container {
     max-width: 29rem;
@@ -493,14 +510,10 @@ body {
     padding: 24px 16px 24px 16px;
   }
 
-  .para {
-    font-size: 10px;
-    line-height: 23px;
-  }
-
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
+    width: 90%;
   }
 
   .cards__tag__colored {
@@ -523,6 +536,11 @@ body {
 
 @media screen and (max-width: 360px) {
 
+  .para {
+    font-size: 9px;
+    line-height: 23px;
+  }
+
   .cards__price__container {
     max-width: 27rem;
     padding-top: 21px;
@@ -536,6 +554,7 @@ body {
   .section__description {
     padding-top: 5px;
     line-height: 17.76px;
+    width: 90%;
   }
 
   .cards__tag__colored {
@@ -554,10 +573,6 @@ body {
     padding-top: 10px;
 }
 
-.para {
-  font-size: 9px;
-  line-height: 23px;
-}
 }
 
 
