@@ -3,18 +3,10 @@
   padding: 0;
 }
 
-html {
-  font-size: 10px;
-}
-
-body {
-  font-size: 1.6rem;
-}
-
 .student-name {
   color: rgb(255, 255, 255);
   font-family: Asgard Trial;
-  font-size: 2.8rem;
+  font-size: 28px;
   font-weight: 500;
   line-height: 33px;
   letter-spacing: 0px;
@@ -24,7 +16,7 @@ body {
 .position-title {
   color: rgb(41, 39, 39);
   font-family: Manrope;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0px;
@@ -48,6 +40,7 @@ body {
 .wrapper {
   max-width: 1318px;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .reviews__content {
@@ -60,12 +53,16 @@ body {
 }
 
 .slider-card {
-  width: 63rem;
-  height: 32.3rem;
+  width: 630px;
+  height: 323px;
 }
 
-.section__header {
-  padding: 80px 0 2px 20px;
+.rectangle {
+  border-radius: 16px;
+  background: url("./assets/Rectangle_19.png");
+  width: 645px;
+  height: 387px;
+  background-repeat: no-repeat;
 }
 
 .card-wrapper {
@@ -79,7 +76,6 @@ body {
   border-radius: 20px;
   background: rgba(26, 26, 26, 0.9);
 }
-
 
 .info-box {
   display: flex;
@@ -121,9 +117,12 @@ body {
   height: 47.27px;
 }
 
+.sigma {
+  transform: rotate(-3deg)
+}
+
 .slider_wrapper {
   margin: 0 auto;
-  padding: 0 12px 32px;
 }
 
 .sliders_container {
@@ -146,10 +145,10 @@ body {
 .slider_cards {
   display: flex;
   align-items: center;
-  margin: 1rem auto;
+  margin: 10px auto;
   transition: all 0.9s;
-  gap: 24px;
-  padding: 0.4% 0.3%;
+  gap: 30px;
+  padding: 0.4% 0.2%;
 }
 
 .nav-container {
@@ -176,86 +175,85 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  border: 0 solid #D9D9D9;
-  background-color: #D9D9D9;
+  border: 0 solid #d9d9d9;
+  background-color: #d9d9d9;
 }
 
 #radio1:checked ~ .slider .nav-container .dots #one span {
   border-radius: 8px;
   background: rgb(10, 204, 218);
-    width: 37.5px;
+  width: 37.5px;
 }
 
-#radio2:checked ~ .slider .nav-container .dots #two span{
-  border-radius: 8px;
-  background: rgb(10, 204, 218);
-    width: 37.5px;
-}
-
-#radio3:checked ~ .slider .nav-container .dots #three span{
-  border-radius: 8px;
-  background: rgb(10, 204, 218);
-    width: 37.5px;
-}
-
-#radio4:checked ~ .slider .nav-container .dots #four span{
-  border-radius: 8px;
-  background: rgb(10, 204, 218);
-    width: 37.5px;
-}
-
-#radio5:checked ~ .slider .nav-container .dots #five span{
-  border-radius: 8px;
-  background: rgb(10, 204, 218);
-    width: 37.5px;
-}
-
-#radio6:checked ~ .slider .nav-container .dots #six span{
+#radio2:checked ~ .slider .nav-container .dots #two span {
   border-radius: 8px;
   background: rgb(10, 204, 218);
   width: 37.5px;
 }
 
- #radio1:checked ~ .slider .slider_cards {
-  margin-left: 0%;
+#radio3:checked ~ .slider .nav-container .dots #three span {
+  border-radius: 8px;
+  background: rgb(10, 204, 218);
+  width: 37.5px;
+}
+
+#radio4:checked ~ .slider .nav-container .dots #four span {
+  border-radius: 8px;
+  background: rgb(10, 204, 218);
+  width: 37.5px;
+}
+
+#radio5:checked ~ .slider .nav-container .dots #five span {
+  border-radius: 8px;
+  background: rgb(10, 204, 218);
+  width: 37.5px;
+}
+
+#radio6:checked ~ .slider .nav-container .dots #six span {
+  border-radius: 8px;
+  background: rgb(10, 204, 218);
+  width: 37.5px;
+}
+
+#radio1:checked ~ .slider .slider_cards {
+  margin-left: 0;
   transition: transform 4s ease-in-out;
 }
 
 #radio3:checked ~ .slider .slider_cards {
-  margin-left: -18.7%;
+  margin-left: -18.8%;
 }
 
 #radio4:checked ~ .slider .slider_cards {
-  margin-left: -37.4%;
+  margin-left: -37.5%;
 }
 
-
 #radio5:checked ~ .slider .slider_cards {
-  margin-left: -55.9%;
+  margin-left: -56.2%;
 }
 
 #radio6:checked ~ .slider .slider_cards {
-  margin-left: -74.5%;
+  margin-left: -74.8%;
 }
 
 #radio1:checked ~ .slider #slide-1 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
-  transform: rotate(3.00deg);
+  transform: rotate(3deg);
 }
 
 #radio2:checked ~ .slider #slide-2 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
-  transform: rotate(3.00deg);
+  transform: rotate(3deg);
 }
 
 #radio3:checked ~ .slider #slide-3 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
-  transform: rotate(3.00deg);
+  transform: rotate(3deg);
 }
 
 #radio4:checked ~ .slider #slide-4 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
-  transform: rotate(3.00deg);
+  transform: rotate(3deg);
 }
 
 #radio5:checked ~ .slider #slide-5 .card-wrapper {
