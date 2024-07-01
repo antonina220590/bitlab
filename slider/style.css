@@ -338,8 +338,34 @@
     background-repeat: no-repeat;
   }
 
+  .slider-card {
+    width: 424px;
+    height: 377px;
+}
   .position-title {
     font-size: 11px;
     line-height: 15.03px;
   }
+
+  .student-position {
+    width: 113px;
+    height: 27px;
+  }
+
+  .students-review {
+    font-size: 14px;
+    line-height: 25px;
+   }
+
+   .info-box {
+    padding-top: 12px;
+   }
+
+   .review-box {
+    padding-top: 25px;
+   }
+
+   .wrapper {
+    max-width: 900px;
+   }
 }
