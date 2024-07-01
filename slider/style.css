@@ -37,7 +37,7 @@
   background-color: #1a1a1a;
 }
 
-.wrapper {
+.reviews__wrapper {
   max-width: 1318px;
   margin: 0 auto;
   padding-top: 50px;
@@ -88,12 +88,12 @@
 }
 
 .img1 {
-  background: url('./assets/img1.png');
+  background: url("./assets/img1.png");
   background-repeat: no-repeat;
 }
 
 .img2 {
-  background: url('./assets/img2.png');
+  background: url("./assets/img2.png");
   background-repeat: no-repeat;
 }
 
@@ -123,18 +123,18 @@
 }
 
 .magnum {
-  background: url('./assets/company2.png');
+  background: url("./assets/company2.png");
   width: 193px;
   height: 47.27px;
   background-repeat: no-repeat;
 }
 
 .sigma {
-  background: url('./assets/company1.png');
+  background: url("./assets/company1.png");
   width: 193px;
   height: 80px;
   background-repeat: no-repeat;
-  transform: rotate(-3deg)
+  transform: rotate(-3deg);
 }
 
 .slider_wrapper {
@@ -282,7 +282,6 @@
   transform: rotate(3deg);
 }
 
-
 @media screen and (max-width: 1350px) {
   .rectangle {
     border-radius: 16px;
@@ -298,16 +297,15 @@
   }
 
   .sigma {
-    background: url('./assets/sigma_small.png');
+    background: url("./assets/sigma_small.png");
     width: 103px;
     height: 48px;
     background-repeat: no-repeat;
-    transform: rotate(-3deg)
+    transform: rotate(-3deg);
   }
 
-
   .magnum {
-    background: url('./assets/magnum_small.png');
+    background: url("./assets/magnum_small.png");
     width: 103px;
     height: 48px;
     background-repeat: no-repeat;
@@ -329,19 +327,19 @@
   }
 
   .img1 {
-    background: url('./assets/img1_small.png');
+    background: url("./assets/img1_small.png");
     background-repeat: no-repeat;
   }
 
   .img2 {
-    background: url('./assets/img2_small.png');
+    background: url("./assets/img2_small.png");
     background-repeat: no-repeat;
   }
 
   .slider-card {
     width: 424px;
     height: 377px;
-}
+  }
   .position-title {
     font-size: 11px;
     line-height: 15.03px;
@@ -355,22 +353,112 @@
   .students-review {
     font-size: 14px;
     line-height: 25px;
-   }
+  }
 
-   .info-box {
+  .info-box {
     padding-top: 12px;
-   }
+  }
 
-   .review-box {
+  .review-box {
     padding-top: 25px;
-   }
+  }
 
-   .wrapper {
+  .reviews__wrapper {
     max-width: 900px;
-   }
+  }
 
-   .slider_cards {
+  .slider_cards {
     padding: 0.4% 0.4%;
-   }
+  }
+}
 
+@media screen and (max-width: 920px) {
+  .rectangle {
+    border-radius: 16px;
+    background: url("./assets/Rectangle_14.png");
+    width: 361px;
+    height: 321px;
+    background-repeat: no-repeat;
+  }
+
+  .slider-card {
+    width: 361px;
+    min-height: 321px;
+  }
+
+  .reviews__wrapper {
+    max-width: 768px;
+  }
+
+  .review-box {
+    padding-top: 0;
+  }
+
+  .students-review {
+    font-size: 12px;
+    line-height: 23px;
+}
+
+  .student-position {
+    width: 93px;
+    height: 27px;
+}
+
+.info-box__name-position {
+  padding-right: 0;
+}
+
+.card-wrapper {
+  padding: 12.8px;
+}
+
+.student-name {
+  font-size: 15px;
+  line-height: 23.6px;
+}
+
+.info-box__name-position {
+  padding-right: 40px;
+}
+
+.student-position {
+  width: 103px;
+  height: 27px;
+}
+
+.slider-card__content {
+  min-height: 290px;
+}
+}
+
+@media screen and (max-width: 819px) {
+
+  .nav-container {
+    display: none;
+    position: absolute;
+  }
+
+  .rectangle {
+    background: none;
+  }
+
+  #radio1:checked ~ .slider #slide-1 .card-wrapper {
+    border: 1px solid white;
+    transform: rotate(0deg);
+}
+
+#slide-3,
+#slide-4,
+#slide-5,
+#slide-6 {
+  display: none;
+}
+
+.slider_cards {
+  flex-direction: column;
+}
+
+.slider {
+  overflow: unset;
+}
 }
