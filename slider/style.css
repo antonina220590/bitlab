@@ -499,7 +499,6 @@
   }
 }
 
-
 @media screen and (max-width: 375px) {
   .slider-card {
     width: 328px;
@@ -522,46 +521,103 @@
     padding: 12.8px 12.8px 0 12.8px;
   }
 
-  .students-review {
-    font-size: 13px;
-    line-height: 20px;
-  }
-
   .position-title {
     font-size: 9px;
     line-height: 15.03px;
+  }
+
+  .student-name {
+    font-size: 13px;
+    line-height: 23.6px;
+  }
+
+  .reviews__content {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    width: 90%;
+    padding-bottom: 127px;
+    overflow: unset;
+  }
+
+  .students-review {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .slider-card__content {
+    height: 240px;
+    width: 315px;
+  }
+
+  .rectangle {
+    width: 337px;
+  }
+
+  .slider-card {
+    width: 300px;
+    height: 260px;
+  }
 }
 
-.student-name {
-  font-size: 13px;
-  line-height: 23.6px;
-}
+@media screen and (max-width: 340px) {
+  .rectangle {
+    width: 280px;
+  }
 
-.reviews__content {
-  display: flex;
-  flex-direction: column;
-  gap: 29px;
-  width: 90%;
-  padding-bottom: 127px;
-  overflow: unset;
-}
+  .img1 {
+    background: url("./assets/img1_49.png");
+    background-repeat: no-repeat;
+  }
 
-.students-review {
-  font-size: 10px;
-  line-height: 18px;
-}
+  .img2 {
+    background: url("./assets/img2_49.png");
+    background-repeat: no-repeat;
+  }
 
-.slider-card__content {
-  min-height: 240px;
-  width: 315px;
-}
+  .info-box__img {
+    padding-right: 7px;
+  }
 
-.rectangle {
-  width: 337px;
-}
+  .info-box__name-position {
+    gap: 6px;
+      padding-left: 10px;
+  }
 
-.slider-card {
-  width: 300px;
-  min-height: 317px;
-}
+  .student-position {
+    width: 77px;
+    height: 10px;
+    padding: 4px 10px 4px 10px;
+  }
+
+  .slider-card {
+    width: 250px;
+    height: 260px;
+  }
+
+  .slider-card__content {
+    height: 220px;
+    width: 240px;
+  }
+
+  .students-review {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .sigma {
+    background: url("./assets/sigma_tiny.png");
+    width: 51px;
+    height: 24px;
+    background-repeat: no-repeat;
+    transform: rotate(-3deg);
+  }
+
+  .magnum {
+    background: url("./assets/magnum_tiny.png");
+    width: 51px;
+    height: 24px;
+    background-repeat: no-repeat;
+  }
+
 }
