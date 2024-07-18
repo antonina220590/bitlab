@@ -237,29 +237,29 @@
 }
 
 #radio3:checked ~ .slider .slider_cards {
-  margin-left: -18.8%;
+  margin-left: -18.67%;
 }
 
 #radio4:checked ~ .slider .slider_cards {
-  margin-left: -37.5%;
+  margin-left: -37.3%;
 }
 
 #radio5:checked ~ .slider .slider_cards {
-  margin-left: -56.2%;
+  margin-left: -55.97%;
 }
 
 #radio6:checked ~ .slider .slider_cards {
-  margin-left: -74.8%;
+  margin-left: -74.69%;
 }
 
-#radio1:checked ~ .slider #slide-1 .card-wrapper {
+/* #radio1:checked ~ .slider #slide-1 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
   transform: rotate(3deg);
 }
 
 #radio2:checked ~ .slider #slide-2 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
-  transform: rotate(3deg);
+ transform: rotate(3deg);
 }
 
 #radio3:checked ~ .slider #slide-3 .card-wrapper {
@@ -280,6 +280,14 @@
 #radio6:checked ~ .slider #slide-6 .card-wrapper {
   border: 4px solid rgb(10, 204, 218);
   transform: rotate(3deg);
+} */
+
+/*если они хотят наведение на всех устройствах, надо убрать обертку @media (hover) */
+@media (hover) {
+  .card-wrapper:hover {
+    border: 4px solid rgb(10, 204, 218);
+    transform: rotate(3deg);
+  }
 }
 
 @media screen and (max-width: 1350px) {
@@ -581,7 +589,7 @@
 
   .info-box__name-position {
     gap: 6px;
-      padding-left: 10px;
+    padding-left: 10px;
   }
 
   .student-position {
@@ -619,5 +627,4 @@
     height: 24px;
     background-repeat: no-repeat;
   }
-
 }
