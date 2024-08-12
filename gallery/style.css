@@ -130,6 +130,10 @@ aside {
   .middle-row_gallery {
     max-width: 99%;
   }
+
+  .middle-row_gallery {
+    gap: 13px;
+  }
 }
 
 @media screen and (max-width: 1180px) {
