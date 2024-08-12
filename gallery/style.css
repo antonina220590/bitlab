@@ -18,7 +18,7 @@ body {
   position: relative;
 }
 
-.images {
+.images_desktop {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -27,6 +27,10 @@ body {
   width: 1314px;
   max-width: 100%;
   padding: 10px;
+}
+
+.images_mobile {
+  display: none;
 }
 
 aside {
@@ -210,7 +214,7 @@ aside {
     width: 89%;
   }
 
-  .images {
+  .images_desktop {
     justify-content: center;
   }
 }
@@ -224,5 +228,33 @@ aside {
 @media screen and (max-width: 930px) {
   .kelin {
     width: 97%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .images_desktop {
+    display: none;
+  }
+
+  .images_mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .wedgwood_mobile {
+    width: 358px;
+  }
+
+  .common_second-row {
+    display: flex;
+    gap: 10px;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
   }
 }
